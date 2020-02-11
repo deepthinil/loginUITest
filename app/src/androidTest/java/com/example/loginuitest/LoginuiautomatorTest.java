@@ -71,7 +71,7 @@ public class LoginuiautomatorTest {
                 .resourceId("test.sdet.com.simpleapp:id/tv_message")
                 .className("android.widget.TextView"));
 
-// Simulate a user-click on the Sign In button, if found.
+// assert successfull text after user enter details and select Sign In button.
         if (signinButton.exists()) {
             emailTextbox.setText("admin@ctm.com");
             passwordTextbox.setText("password123");
